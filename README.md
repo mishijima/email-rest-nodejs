@@ -19,6 +19,8 @@ This application uses MailGun and SendGrid as its providers, please refer to for
 * Send a notification to someone if it failed to connect to both providers
 * Integration and unit test
 * Limit the number of requests the client can make
+* 'Model' isn't implemented yet
+* Connection to a database
 * Add failed job into a queue table
 * Add successful job into a history table
 * Scheduler to go through the list of items in the 'queue' table
