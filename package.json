@@ -1,0 +1,23 @@
+{
+  "name": "email-rest-nodejs",
+  "version": "1.0.0",
+  "description": "Email REST API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Makoto Ishijima",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "joi": "^13.0.2",
+    "mysql": "^2.15.0",
+    "node-fetch": "^1.7.3",
+    "url-search-params": "^0.10.0"
+  }
+}
